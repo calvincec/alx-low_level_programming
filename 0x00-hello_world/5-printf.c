@@ -1,4 +1,4 @@
-#include <iostream>
+#include <stdio.h>
 
 /**
  * main - prints "with proper grammar, but the outcome is
