@@ -10,7 +10,7 @@ int main(void)
     srand(time(0));
     n = rand() - RAND_MAX / 2;
 
-    /* prints the random number and states if it 0, negative or positive */
+    /* Prints the random number and states if it's 0, negative, or positive */
     printf("%d is ", n);
     if (n > 0)
         printf("positive\n");
