@@ -3,6 +3,12 @@
 #include <stdio.h>
 
 /* Betty style doc for function main goes there */
+/**
+ * main - Entry point
+ * Return: Always 0 (Success)
+ * Description: Print whether the number stored in the variable n is
+ * positive, negative, or zero
+ */
 int main(void)
 {
     int n;
