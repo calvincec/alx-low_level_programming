@@ -3,7 +3,8 @@
 /**
  * main - Entry point
  * Return: Always 0 (Success)
- * Description: A program that prints the lowercase alphabet in reverse, followed by a new line.
+ * Description: A program that prints the lowercase
+ *  alphabet in reverse, followed by a new line.
  */
 int main(void)
 {
