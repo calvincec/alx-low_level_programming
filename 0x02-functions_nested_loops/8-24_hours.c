@@ -13,7 +13,8 @@ void jack_bauer(void)
 	{
 		for (hour_units = 0; hour_units <= 9; hour_units++)
 		{
-			if ((hour_tens <= 1 && hour_units <= 9) || (hour_tens <= 2 && hour_units <= 3))
+			if ((hour_tens <= 1 && hour_units <= 9) ||
+            (hour_tens <= 2 && hour_units <= 3))
 			{
 				for (minute_tens = 0; minute_tens <= 5; minute_tens++)
 				{
