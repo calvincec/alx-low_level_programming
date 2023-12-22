@@ -1,4 +1,5 @@
 .vscode
-+```vscode
-
 ./desktop.ini
+# .gitignore
+desktop.ini
+.vscode/
