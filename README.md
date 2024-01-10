@@ -7,7 +7,7 @@ They help me sharpen my coding skills. I have customised the README's to help me
 - DSA approaches in solving the problems
 - The code organisation/stucture, ie betty
 
-In the entire project, by mentioning DSA I mean using problem solving techniques in comming up with better algorithms hence optimised code. The repo will only feature the optimised codes
+In the entire project, by mentioning DSA I mean using problem solving techniques in comming up with better algorithms hence optimised code. The repo will only feature the optimised codes. It is according to my view and experience
 
 The following are major concepts explored in each folder
 
@@ -78,3 +78,14 @@ Notable DSA used here includes
 - Other advanced Fibonacci problems
 
 ## 0x03-debugging
+More on identifying and removing bugs in a code
+Notable DSA is 
+- A program converts a date to the day of year and determines how many days are left in the year, taking leap year into consideration.
+
+## 0x04-more_functions_nested_loops
+Declaring and calling functions in c  <br>
+Using functions prototypes ie, making one or many personalised functions in separate files. adding each function's prototype in main.h. importing main.h in other codes to use the personalised functions  <br>
+It is like task 0X02 But excusively explores the above concept <br>
+No complex DSA<br>
+
+## 0x05-pointers_arrays_strings
