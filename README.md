@@ -89,3 +89,10 @@ It is like task 0X02 But excusively explores the above concept <br>
 No complex DSA<br>
 
 ## 0x05-pointers_arrays_strings
+Introduction to pointers and arrays, memory management in c <br>
+A function `void print_rev(char *s);` that PRINTS ONLY the string in reverse <br>
+A function `void rev_string(char *s);` that REVERSES the given string <br>
+A function `char *_strcpy(char *dest, char *src);` that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest
+
+## 0x06-pointers_arrays_strings
+
