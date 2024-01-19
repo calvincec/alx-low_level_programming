@@ -95,4 +95,11 @@ A function `void rev_string(char *s);` that REVERSES the given string <br>
 A function `char *_strcpy(char *dest, char *src);` that copies the string pointed to by src, including the terminating null byte (\0), to the buffer pointed to by dest
 
 ## 0x06-pointers_arrays_strings
+A function `char *_strcat(char *dest, char *src);` that concantenates two srings <br>
+Write a function `char *_strncpy(char *dest, char *src, int n);` that copies a string. <br>
+
+## 0x07-pointers_arrays_strings
+More Pointers and strings
+
+## 0x08-recursion
 
