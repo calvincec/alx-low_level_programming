@@ -99,7 +99,77 @@ A function `char *_strcat(char *dest, char *src);` that concantenates two srings
 Write a function `char *_strncpy(char *dest, char *src, int n);` that copies a string. <br>
 
 ## 0x07-pointers_arrays_strings
-More Pointers and strings
+More Pointers and strings and arrays
+
+A function `char *_memset(char *s, char b, unsigned int n);` that fills the first n bytes of the memory area pointed to by s with the constant byte b. Returns a pointer to the memory area s <br>
+A function `char *_memcpy(char *dest, char *src, unsigned int n);` that  copies n bytes from memory area src to memory area dest. Returns a pointer to dest <br>
+A function `char *_strchr(char *s, char c);` that Returns a pointer to the first occurrence of the character c in the string s, or NULL if the character is not found <br>
+A function `unsigned int _strspn(char *s, char *accept);` that Returns the number of bytes in the initial segment of s which consist only of bytes from accept <br>
+A function `char *_strpbrk(char *s, char *accept);` that  locates the first occurrence in the string s of any of the bytes in the string accept. Returns a pointer to the byte in s that matches one of the bytes in accept, or NULL if no such byte is found <br>
+A function `char *_strstr(char *haystack, char *needle);` that finds the first occurrence of the substring needle in the string haystack. The terminating null bytes (\0) are not compared. Returns a pointer to the beginning of the located substring, or NULL if the substring is not found. <br>
+A function `void print_chessboard(char (*a)[8]);` that prints the chessboard 
+ie:
+```
+julien@ubuntu:~/0x07$ cat 7-main.c 
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * main - check the code
+ *
+ * Return: Always 0.
+ */
+int main(void)
+{
+    char board[8][8] = {
+        {'r', 'k', 'b', 'q', 'k', 'b', 'k', 'r'},
+        {'p', 'p', 'p', 'p', 'p', 'p', 'p', 'p'},
+        {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
+        {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
+        {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
+        {' ', ' ', ' ', ' ', ' ', ' ', ' ', ' '},
+        {'P', 'P', 'P', 'P', 'P', 'P', 'P', 'P'},
+        {'R', 'K', 'B', 'Q', 'K', 'B', 'K', 'R'},
+    };
+    print_chessboard(board);
+    return (0);
+}
+julien@ubuntu:~/0x07$ gcc -Wall -pedantic -Werror -Wextra -std=gnu89 _putchar.c 7-main.c 7-print_chessboard.c -o 7-print_chessboard
+julien@ubuntu:~/0x07$ ./7-print_chessboard 
+rkbqkbkr
+pppppppp
+
+
+
+
+PPPPPPPP
+RKBQKBKR
+julien@ubuntu:~/0x07$ 
+```
+A function `void print_diagsums(int *a, int size);` that prints the sum of the two diagonals of a square matrix of integers <br>
+A function `void set_string(char **s, char *to);` that sets the value of a pointer to a char. <br>
+A file `101-crackme_password` that contains the password for the [crackme2](https://github.com/alx-tools/0x06.c) executable.
+- Your file should contain the exact password, no new line, no extra space
+- ltrace, ldd, gdb and objdump can help
+- You may need to install the openssl library to run the crakme2 program: sudo apt install libssl-dev
+- Edit the source list sudo nano /etc/apt/sources.list to add the following line: deb http://security.ubuntu.com/ubuntu xenial-security main Then sudo apt update and sudo apt install libssl1.0.0
 
 ## 0x08-recursion
+Standard functions like `puts` and other functions implemented using recursion
+
+A function `void _puts_recursion(char *s);`  that prints a string, followed by a new line. Similar to the standard `puts` <br>
+A function `void _print_rev_recursion(char *s);`  that prints a string in reverse. <br>
+A function `int _strlen_recursion(char *s);`  that returns the length of a string. Like the standard `strlen` <br>
+A function `int factorial(int n);` that returns the factorial of a given number. If n is lower than 0, the function should return -1 to indicate an error. Factorial of 0 is 1 <br>
+A function `int _pow_recursion(int x, int y);` that returns the value of x raised to the power of y. If y is lower than 0, the function should return -1. Like the standard library `pow` <br>
+A function `int _sqrt_recursion(int n);` that returns the natural square root of a number. If n does not have a natural square root, the function should return -1. like the standard `sqrt` <br>
+A function `int is_prime_number(int n);`  that returns 1 if the input integer is a prime number, otherwise return 0. <br>
+A function `int is_palindrome(char *s);` that returns 1 if a string is a palindrome and 0 if not.An empty string is a palindrome <br>
+A function `int wildcmp(char *s1, char *s2);` that compares two strings and returns 1 if the strings can be considered identical, otherwise return 0. s2 can contain the special character *. The special char * can replace any string (including an empty string) <br>
+
+## 0x09-static_libraries
+
+
+## 0x0A-argc_argv
+
 
