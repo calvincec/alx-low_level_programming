@@ -171,5 +171,10 @@ A function `int wildcmp(char *s1, char *s2);` that compares two strings and retu
 
 
 ## 0x0A-argc_argv
+- A function `int main(int argc, char **argv)` or `int main(int argc, char *argv[])`
 
+- using `__attribute__((unused))`
+- A function `int _atoi(char *s)` that converts string inputs to integers
+- `int check_num(char *str)` to check for a number in a set of strings
 
+## 0x0B-malloc_free
