@@ -178,3 +178,9 @@ A function `int wildcmp(char *s1, char *s2);` that compares two strings and retu
 - `int check_num(char *str)` to check for a number in a set of strings
 
 ## 0x0B-malloc_free
+- a function `char *_strdup(char *str);` that returns a pointer to a newly allocated space in memory, which contains a copy of the string given as a parameter.
+- A function `char *str_concat(char *s1, char *s2);` that concatenates 2 strings. <br>
+The returned pointer should point to a newly allocated space in memory which contains the contents of s1, followed by the contents of s2, and null terminated.
+if NULL is passed, treat it as an empty string.
+The function should return NULL on failure.
+
